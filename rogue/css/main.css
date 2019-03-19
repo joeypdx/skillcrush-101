@@ -1,0 +1,134 @@
+/***** LOCAL FONTS *****/
+
+@font-face {
+  font-family: 'Wisdom Script Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Wisdom Script Regular'), url('../fonts/Wisdom-Script-AJ.woff') format('woff');
+}
+
+
+/***** BODY STYLES  *****/
+
+body { 
+  font-family: Montserrat, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+}
+
+/***** GRID *****/
+
+.full-width {
+  margin: 0 auto;
+  width: 1200px;
+}
+
+.half-width {
+  float: left;
+  width: 600px;
+}
+
+.third-width {
+  float: left;
+  width: 399px;
+  border: 1px solid black;
+}
+
+
+/***** HEADER *****/
+
+#title {
+  float: left;
+}
+
+header h1 {
+  float: left;
+  line-height: 23px;
+  text-align: left;
+}
+
+header img {
+  border-color: #77a466;
+  border-top: 10px;
+  border-bottom: 10px;
+}
+
+/**** NAV BAR ****/
+
+nav {
+  text-align: right;
+  word-spacing: 20px;
+}
+
+nav ul li {
+  display: inline-block;
+  line-height: 23px;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+ 
+
+/***** MAIN AREA *****/
+
+main {
+  border: 3px solid black;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+a {
+  color: #77a466;
+  text-decoration: none;
+}
+
+h1, h2, h3 {
+  text-transform: uppercase;
+}
+
+h1 {
+  font-size: 30px;
+  text-align: left;
+}
+
+h2 {
+  font-size: 18px;
+}
+
+h3 {
+  font-size: 12px;
+}
+
+ul li {
+  list-style: none;
+}
+
+#section-bottom {
+}
+
+#menu, #reviews, #contact {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+#menu ul li {
+  margin: 0;
+  padding: 0;
+}
+
+.highlight {
+  color: #77a466;
+}
+
+#font-emphasis {
+  font-family: 'Wisdom Script Regular';
+  text-transform: lowercase;
+}
+
+
+/***** FOOTER AREA *****/
+
+footer {
+  clear: both;
+  padding: 20px;
+  text-align: center;
+}
